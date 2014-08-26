@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="hitbox"></category>
+			
+			<category name="hitbox.page">
+				<parent>hitbox</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="HITBOX_TEAM">
+				<categoryname>hitbox.page</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>gamecaster</defaultvalue>
+			</option>
+			
+			<option name="HITBOX_SHOW_DESC">
+				<categoryname>hitbox.page</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="HITBOX_SHOW_FOLLOWER">
+				<categoryname>hitbox.page</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="HITBOX_SHOW_AUDIO">
+				<categoryname>hitbox.page</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="HITBOX_AUDIO">
+				<categoryname>hitbox.page</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>http://api.3fy.de/streaming.ogg</defaultvalue>
+			</option>
+			
+		</options>
+	</import>
+</data>

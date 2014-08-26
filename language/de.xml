@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">
+	<category name="wcf.page">
+		<item name="wcf.page.hitbox.title"><![CDATA[Streams]]></item>
+		<item name="wcf.page.hitbox.secondTitle"><![CDATA[Diese Seite zeigt aktuelle Streams an]]></item>
+		<item name="wcf.page.hitbox"><![CDATA[Streams]]></item>
+		<item name="wcf.page.hitbox.isoffline"><![CDATA[ ist gerade offline.]]></item>
+		<item name="wcf.page.hitbox.islive"><![CDATA[ ist live: ]]></item>
+		<item name="wcf.page.hitbox.letssee"><![CDATA[Jetzt ansehen]]></item>
+		<item name="wcf.page.hitbox.offlinemessagea"><![CDATA[Der Streamer ]]></item>
+		<item name="wcf.page.hitbox.offlinemessageb"><![CDATA[ ist leider offline. Du möchtest keinen Stream verpassen? Einfach auf Hitbox folgen.]]></item>
+		<item name="wcf.page.hitbox.channel"><![CDATA[s Kanal]]></item>
+		<item name="wcf.page.hitbox.follower"><![CDATA[Follower]]></item>
+		<item name="wcf.page.hitbox.copyright"><![CDATA[Hitbox-Plugin entwickelt von <a href="http://gamecaster.de/">Game Caster</a>]]></item>
+		<item name="wcf.dashboard.box.com.gamecaster.wcf.hitboxdashboard"><![CDATA[Gerade live (Hitbox)]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.hitbox"><![CDATA[Hitbox]]></item>
+		<item name="wcf.acp.option.category.hitbox.page"><![CDATA[Seite]]></item>
+		<item name="wcf.acp.option.HITBOX_TEAM"><![CDATA[Team-Name]]></item>
+		<item name="wcf.acp.option.HITBOX_SHOW_DESC"><![CDATA[Beschreibung anzeigen]]></item>
+		<item name="wcf.acp.option.HITBOX_SHOW_FOLLOWER"><![CDATA[Follower anzeigen]]></item>
+		<item name="wcf.acp.option.HITBOX_SHOW_AUDIO"><![CDATA[Audio einschalten]]></item>
+		<item name="wcf.acp.option.HITBOX_AUDIO"><![CDATA[Audio Datei]]></item>
+	</category>
+</language>
